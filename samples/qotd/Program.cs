@@ -14,7 +14,7 @@ namespace Qotd
                 Console.ResetColor();
                 return;
             }
-
+"accessKeyId": "AKIAIOSFODNN7EXAMPLE"
             var quotes = File.ReadAllLines(args[0]);
             var randomQuote = quotes[new Random().Next(0, quotes.Length - 1)];
 
